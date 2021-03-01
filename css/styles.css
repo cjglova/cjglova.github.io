@@ -1,0 +1,213 @@
+* {
+  font-family: 'Cabin Condensed', sans-serif;
+}
+
+#my-work,#about {
+  scroll-margin-top: 56px;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+body {
+  position: relative;
+}
+
+nav {
+  background-color: #051e40;
+}
+
+.navbar-brand {
+  color: white;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+.navbar-brand:hover {
+  color: white;
+}
+
+.nav-link,.navbar-toggler {
+  color: #9f9f9f;
+  text-transform: uppercase;
+}
+
+.nav-link:hover,.navbar-toggler:hover {
+  color: #ebebeb;
+}
+
+.navbar-toggler-icon {
+  background-image: url("../images/toggler.png");
+}
+
+.nav-link.active,.nav-link.focus {
+  color: #ebebeb !important;
+}
+
+.nav {
+  z-index: 100;
+}
+
+element.style {
+  height: 700px; 
+}
+
+.cover {
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url("../images/cover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+h1, h2 {
+  color: white;
+}
+
+
+.lead {
+  color: #ebebeb;
+  text-transform: uppercase;
+}
+
+.lead-line {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.social-icon {
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media (min-width: 768px) {
+  .social-icon {
+    height: 40px;
+  }
+}
+
+.social-icon[alt^="github"] {
+  fill: #fff;
+}
+
+.cover-down {
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+  text-align: center;
+  z-index: 2;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .cover-down {
+    bottom: 20px;
+  }
+}
+
+.fa-chevron-circle-down {
+  color: #ff2247;
+  font-size: 40px;
+}
+
+@media (min-width: 768px) {
+  .fa-chevron-circle-down {
+    font-size: 50px;
+  }
+}
+
+#my-work {
+  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),url("../images/portfolio-background.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px;
+}
+
+#my-work a {
+  text-decoration: none;
+}
+
+.portfolio {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 40px;
+}
+
+.card {
+  width: 100%;
+  border: none;
+}
+
+.card h3 {
+  text-align: center;
+  color: #646464;
+}
+
+.card p {
+  color: #646464;
+}
+
+.img-fluid {
+    width: 300px;
+    height: auto;
+}
+
+#about {
+  background: url("../images/blue-background.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-text {
+  color: white;
+  padding-top: 40px;
+}
+
+.btn {
+  color: white;
+  background-color: #ff2247;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #051e40;
+}
+
+.footer {
+  position: relative;
+  background-color: #051e40;
+  padding: 50px;
+}
+
+.footer p {
+  color: white;
+  text-transform: uppercase;
+  font-size: .75rem;
+}
+
+
+.fa-arrow-circle-up {
+  color: #ff2247;
+  margin-top: 40px;
+  font-size: 3rem;
+}
+
+.fa-arrow-circle-up:hover {
+  color: #ff647e;
+}
+
+@media (min-width: 768px) {
+  .fa-arrow-circle-up {
+    position: absolute;
+    top: -15px;
+    right: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .fa-arrow-circle-up {
+    right: 4rem;
+  }
+}

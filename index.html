@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Christian Glova | Portfolio</title>
+  </head>
+    <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="50">
+      <!-- nav -->
+      <nav class="navbar fixed-top navbar-expand-lg" id="navbar">
+        <div class="container">
+          <a class="navbar-brand">Christian Glova</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#my-work">Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="modal" data-bs-target="#contactModal">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- /nav -->
+      <main>
+        <!-- home -->
+        <div class="cover d-flex text-center align-items-center justify-content-center" id="home">
+          <div class="container">
+            <h1 class="display-1">Christian Glova</h1>
+            <p class="lead mb-5 d-none d-md-block">
+              <span class="lead-line">Front-End Developer</span>
+            </p>
+            <p class="lead d-md-none d-lg-none d-xl-none">Front-End Developer</p>
+            <div class="containter d-flex justify-content-center ">
+              <a href="https://github.com/cjglova" target="_blank">
+                <img class="social-icon" src="images/github.png" alt="github">
+                </a>
+                <a href="https://www.linkedin.com/in/christianglova/" target="_blank">
+                  <img class="social-icon" src="images/linkedin.png" alt="linkedin">
+                  </a>
+                    <a href="https://www.instagram.com/christianglova_/" target="_blank">
+                      <img class="social-icon" src="images/instagram.png" alt="instagram">
+                      </a>
+                      <a href="https://twitter.com/christianglova_" target="_blank">
+                        <img class="social-icon" src="images/twitter.png" alt="twitter">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="cover-down">
+                      <p class="text-center">
+                        <a href="#my-work">
+                          <i class="fas fa-chevron-circle-down"></i>
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                  <!-- /home -->
+  
+                  <!-- my work -->
+                  <div id="my-work">
+                    <div class="container">
+                      <h2 class="display-3 mb-3">Work</h2>
+                      <div class="portfolio">
+                        <a href="https://cjglova.github.io/Interactive-Photo-Gallery/" target="_blank">
+                          <div class="card">
+                            <img src="images/photo-gallery.jpg" class="card-img-top" alt="photo gallery">
+                              <div class="card-body">
+                                <h3 class="h5">Photo Gallery</h3>
+                                <p class="card-text">Filter through images using this interactive photo gallery.</p>
+                                <span class="badge rounded-pill bg-dark me-1">Javascript</span>
+                                <span class="badge rounded-pill bg-dark me-1">CSS</span>
+                                <span class="badge rounded-pill bg-dark">HTML</span>
+                              </div>
+                            </div>
+                          </a>
+                          <a href="https://cjglova.github.io/Game-Show-App/" target="_blank">
+                            <div class="card">
+                              <img src="images/game-show-app.jpg" class="card-img-top" alt="game show app">
+                                <div class="card-body">
+                                  <h3 class="h5">Game Show App</h3>
+                                  <p class="card-text">You only have five tries to guess the phrase.</p>
+                                  <span class="badge rounded-pill bg-dark me-1">Javascript</span>
+                                  <span class="badge rounded-pill bg-dark me-1">CSS</span>
+                                  <span class="badge rounded-pill bg-dark">HTML</span>
+                                </div>
+                              </div>
+                            </a>
+                            <a href="https://cjglova.github.io/Web-Style-Guide/" target="_blank">
+                              <div class="card">
+                                <img src="images/web-style-guide.jpg" class="card-img-top" alt="web style guide">
+                                  <div class="card-body">
+                                    <h3 class="h5">Web Style Guide</h3>
+                                    <p class="card-text">A moble friendly web style guide created using Sass.</p>
+                                    <span class="badge rounded-pill bg-dark me-1">Sass</span>
+                                    <span class="badge rounded-pill bg-dark">HTML</span>
+                                  </div>
+                                </div>
+                              </a>
+                              <a href="https://cjglova.github.io/Web-App-Dashboard/" target="_blank">
+                                <div class="card">
+                                  <img src="images/web-app-dashboard.jpg" class="card-img-top" alt="web app dashboard">
+                                    <div class="card-body">
+                                      <h3 class="h5">Web App Dashboard</h3>
+                                      <p class="card-text">An interactive dashboard with tables, charts, and graphs.</p>
+                                      <span class="badge rounded-pill bg-dark me-1">Javascript</span>
+                                      <span class="badge rounded-pill bg-dark me-1">Sass</span>
+                                      <span class="badge rounded-pill bg-dark">HTML</span>
+                                    </div>
+                                  </div>
+                                </a>
+                                <a href="https://cjglova.github.io/Employee-Directory/" target="_blank">
+                                  <div class="card">
+                                    <img src="images/employee-directory.jpg" class="card-img-top" alt="employee directory">
+                                      <div class="card-body">
+                                        <h3 class="h5">Employee Directory</h3>
+                                        <p class="card-text">An API directory that share details of each employee.</p>
+                                        <span class="badge rounded-pill bg-dark me-1">Javascript</span>
+                                        <span class="badge rounded-pill bg-dark me-1">Sass</span>
+                                        <span class="badge rounded-pill bg-dark">HTML</span>
+                                      </div>
+                                    </div>
+                                  </a>
+                                  <a href="https://cjglova.github.io/Online-Registration-Form/" target="_blank">
+                                    <div class="card">
+                                      <img src="images/online-registration-form.jpg" class="card-img-top" alt="online registration form">
+                                        <div class="card-body">
+                                          <h3 class="h5">Online Registration Form</h3>
+                                          <p class="card-text">A responsive online registration form using HTML and CSS basics.</p>
+                                          <span class="badge rounded-pill bg-dark me-1">CSS</span>
+                                          <span class="badge rounded-pill bg-dark">HTML</span>
+                                        </div>
+                                      </div>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- /my work -->
+                              <!-- about -->
+                              <div id="about">
+                                <div class="container">
+                                      
+                                  <h2 class="display-3 mb-3">About Me</h2>
+                                  <div class="about-content row">
+                                    <img class="img-fluid" src="images/me.jpg" alt="Christian Glova">
+                                    <div class="about-text col-lg-7 mb-3">
+                                      <p>My Skillset:  | HTML | CSS | Javascript | Graphic Design |  </p>
+                                      <p>After graduating in 2014 my journey started in freelancing, creating digital advertisements for musical artists, clothing brands, and entrepreneurs. I have also assisted web developers with visual output for websites to the point where my curiosity for web design grew. My goal is to add Front End Web Development to my repertoire.</p>
+                                      <p>Please feel free to contact me anytime!</p>
+                                      <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#contactModal">Contact Me</button>
+                                    </div>
+                                   
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- /about -->
+                                <!-- Modal -->
+                              </main>
+                              <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="exampleModalLabel">CONTACT ME</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                      <form action="https://formspree.io/f/xbjpwjda" method="POST">
+                                        <p class="form-error small">* Required Fields</p>
+                                        <div class=" mb-3">
+                                          <p>
+                                            <label for="name" id="basic-addon1">*Your Name</label>
+                                          </p>
+                                          <input id="name" name="name" type="text" class="form-control" placeholder="First and Last" aria-label="name" aria-describedby="basic-addon1" required>
+                                          </div>
+                                          <div class=" mb-3">
+                                            <p>
+                                              <label for="email" id="basic-addon2">*Email Address</label>
+                                            </p>
+                                            <input id="email" name="email" type="text" class="form-control" placeholder="johnsmith@mail.com" aria-label="email" aria-describedby="basic-addon2" required>
+                                            </div>
+                                            <div class="mb-3">
+                                              <p>
+                                                <label for="message">Message</label>
+                                              </p>
+                                              <textarea id="message" name="message" class="form-control" aria-label="With textarea"></textarea>
+                                            </div>
+                                            <button type="submit" class="btn btn-outline-secondary" onclick="formValidator()" value="Send">Submit</button>
+                                            <p class="small" id="form-error" style="display: none; color: red;">Please Complete The Required Fields</p>
+                                          </form>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <footer>
+                                    <div class="pt-3 footer">
+                                      <div class="container d-flex justify-content-between">
+                                        <p>&copy;Copyright 
+                                          <span id="year"></span> | Christian Glova
+                                        </p>
+                                        <p>
+                                          <a href="#home">
+                                            <i class="fas fa-arrow-circle-up ms-3"></i>
+                                          </a>
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </footer>
+                                  <!-- scripts -->
+                                  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+                                  <script src="js/app.js"></script>
+                                </body>
+                              </html>
